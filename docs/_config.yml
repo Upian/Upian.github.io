@@ -30,10 +30,9 @@ twitter_username:
 github_username:  Upian
 
 # Build settings
-theme: "murraco/jekyll-theme-minimal-resume"
+theme: minima
 plugins:
-  - jekyll-remote-theme 
-# - jekyll-feed
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
