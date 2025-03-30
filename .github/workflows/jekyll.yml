@@ -21,7 +21,7 @@ jobs:
       - name: Bundler 및 Jekyll 설치
         run: |
           gem install bundler
-          bundle install
+          bundle install --gemfile=docs/Gemfile  # docs 폴더의 Gemfile을 사용하도록 설정
 
       - name: Jekyll 사이트 빌드
         run: bundle exec jekyll build --source docs --destination _site  # docs 폴더를 기준으로 빌드
