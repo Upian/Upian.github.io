@@ -16,7 +16,7 @@ jobs:
       - name: Ruby & Jekyll 설치
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: '3.0'  # 사용할 Ruby 버전 (Jekyll은 Ruby 기반)
+          ruby-version: '3.3.7'  # 사용할 Ruby 버전 (Jekyll은 Ruby 기반)
 
       - name: Bundler 및 Jekyll 설치
         run: |
