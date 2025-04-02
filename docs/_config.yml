@@ -51,10 +51,8 @@ about_content: | # this will include new lines to allow paragraphs
   📞: 010 8729 4585  
   📧: upian12@gmail.com
   
-  <mark> skill </mark>
-  C++, C#, Python
-  DB: MSSQL, PostgreSQL, MYSQL, redis, MongoDB
-  PHP, JavaScript
+  C++, C#, Python, PHP, JavaScript |
+  MSSQL, PostgreSQL, MYSQL, redis, MongoDB |
 
 content:
   - title: Experience # Title for the section
@@ -67,9 +65,9 @@ content:
         sub_title: 게임 서버 개발자
         caption: 2018.08 - 2019.09
         quote: >
-          
+          생존 FPS 장르인 H1Z1을 개발
         description: | # this will include new lines to allow paragraphs
-            H1Z1 개발
+          게임 서버 콘텐츠, 운영툴, 봇 테스트 툴, 결제 모듈 작업
 
       - layout: left
         title: 조이시티
@@ -78,12 +76,10 @@ content:
         sub_title: 게임 서버 개발자
         caption: 2020.01 - 2025.01
         quote: >
-          
+          스포츠 장르인 3on3FreeStyle, 소셜 MMORPG인 JoyTown을 개발
         description: | # this will include new lines to allow paragraphs
-            3on3FreeStyle
-            JoyTown
+          게임 서버 콘텐츠, 네트워크 엔진 개선, 운영툴 작업
 
-  
 ########################################################################################################################################
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
